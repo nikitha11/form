@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="form.js"></script>
+<body>
+
+<h2>Text Input</h2>
+<div class="f">
+<form>
+  <input type="text" name="firstname" placeholder="firstname" id="firstname">
+  <br><br>
+	<input type="text" name="lastname" placeholder="lastname" id="lastname">
+  </form>
+
+<form name="f1" action="register.jsp" onsubmit="return matchpass()"> <br>
+
+<input type="password" name="password" placeholder="password" /><br/> </br><br>
+<input type="password" name="password2" placeholder="confirm pwd" /><br/>  
+<input type="submit">  
+</form>  
+<form name="myform"  method="post" action="#" onsubmit="return validateemail();">  
+
+Email: <input type="text" name="email"><br/>  
+ <input type="submit" value="register" id="s">  
+</form>  
+</div>
+</body>
+</html>
